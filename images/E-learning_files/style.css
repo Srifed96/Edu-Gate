@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: sans-serif;
+   
+}
+
+/*------------Global Tags---------*/
+
+h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
+
+
+h6{
+    font-size: 1.1rem;
+    color: black;
+}
+
+/*---------------------------------------Navigation bar-------------------------*/
+
+nav{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 70px;
+    background: transparent;
+   
+    
+ 
+}
+nav img{
+    width: 150px;
+    height: 100%;
+    cursor: pointer;
+    background: transparent;
+    padding:0px;
+}
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .navigation ul li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+nav .navigation ul li a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 25px;
+    font-weight: 500px;
+    transition: 0.3s;
+    padding: 15px;
+   
+}
+nav .navigation ul li a:hover{
+    color: rgb(223, 49, 18);
+}
+
+/*------------------------------------Home-------------------------------*/
+#home{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(images/girlstudy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#home h2{
+    color: yellowgreen;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+#home p{
+    width: 50%;
+    color: white;
+    color: yellowgreen;
+
+}
+span{
+    color:rgb(71, 255, 47);
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#home .btn{
+    margin-top: 30px;
+    border: none;
+}
+#home a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 13px 35px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    
+}
+#home a.greenyellow{
+    color: white;
+    background-color:rgb(69, 228, 48) ;
+}
+#home a.greenyellow:hover{
+    color: rgb(187, 33, 33);
+    background: rgb(85, 142, 196);
+}
+#home a.yellow{
+    color: white;
+    background-color: yellow;
+}
+#home a.yellow:hover{
+    color: rgb(187, 33, 33);
+    background: rgb(85, 142, 196);
+    
+}
+
+/*----------------------------------Features section-------------------------------*/
+p{
+    font-size: 20px;
+}
+#features{
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+#features .feature-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap: 1rem;
+    margin-top: 30px;
+    
+    
+}
+#features .feature-box{
+    background: lightgrey;
+    text-align: start;
+    
+    margin: 10px;
+    border-radius: 20px;
+}
+#features .feature-box i{
+    font-size: 35px;
+    margin: 10px;
+    color: rgb(46,46,59);
+    cursor: pointer;
+    
+}
+#features .feature-box h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(46,46,59);
+    padding: 10px 0 5px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#features .feature-box p{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(46,46,59);
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+/*--------------------------------Course Section------------------------------*/
+
+#course{
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+
+}
+#course .course-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap: 1rem;
+    margin-top: 30px;
+    
+}
+
+#course .courses{
+    text-align: start;
+    background: lightgrey;
+    height: 100%;
+    position: relative;
+    border-radius: 20px;
+    
+}
+#course .courses img{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+#course .courses .detalis{
+    padding: 15px 15px 0 15px;
+
+}
+#course .courses i{
+    color: darkgoldenrod;
+    font-size: .9rem;
+    
+}
+#course .courses .update{
+    color: gray;
+    font-size: 15px;
+}
+#course .courses .number{
+    display: flex;
+    color: lightslategrey;
+    font-size: 15px;
+   
+}
+#course .courses .cost{
+    background-color: greenyellow;
+    color: white;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+    font-size: 20px;
+}
+
+/*-----------------------Registration Form ---------------------*/
+
+#registration{
+    padding: 6vw 8vw 6vw 8vw;
+    background-image: linear-gradient(rgba(99,112,168,0.5),rgba(81,91,233,0.5)),url(images/js1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#registration .reminder{
+    color: white;
+
+
+}
+#registration.reminder h2{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    
+}
+#registration .reminder .time{
+  display: flex;
+  margin-top: 40px;
+}
+#registration .reminder .time .date{
+    text-align: center;
+    padding: 13px 33px;
+    background: rgb(255, 255, 255,0.3);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    border-radius: 10px;
+    margin: 0 5px 10px 5px;
+    border: 1px solid whitesmoke;
+    font-size: 1.1rem;
+}
+
+#registration .form{
+    background: rgb(255, 255, 255,0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+}
+#registration .form input{
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid violet;
+    outline: none;
+    border-radius: 20px;
+}
+#registration .form input::placeholder{
+    margin:10px;
+    font-size: 20px;
+}
+#registration .form .btn{
+    margin-top: 20px;
+    border: none;
+}
+#registration .form a.greenyellow{
+text-decoration: none;
+font-size: 20px;
+padding: 13px 35px;
+background-color:greenyellow;
+font-weight: 600;
+border-radius: 25px;
+color:darkmagenta;
+
+}
+
+/*----------------------------------Experts Section----------------------------*/
+
+#experts{
+
+    padding: 8vwn 8vw 0 8vw;
+    text-align: center;
+    margin-top: 50px;
+}
+#experts .expert-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+#experts .expert-box .profile{
+    background: lightgrey;
+    padding: 30px 10px;
+    cursor: pointer;
+}
+.links{
+    margin-top: 10px;
+}
+.links i{
+    padding: 10px 13px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.links i:hover{
+    background-color: darkblue;
+    color: wheat;
+    cursor: pointer;
+}
+
+/*-----------------------------Footer Section----------------------------------*/
+
+footer{
+    padding: 8vw;
+    background-color: rgb(19, 19, 39);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer .footer-col{
+    padding-bottom: 40px;
+}
+footer h3{
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+footer li{
+    list-style: none;
+    color: wheat;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+footer li:hover{
+    color: yellow;
+}
+footer p{
+    color: white;
+}
+footer .subscribe{
+    margin-top: 20px;
+}
+footer input{
+    width: 220px;
+    padding: 15px 12px;
+    background: wheat;
+    border:none;
+    outline: none;
+    color: gray;
+    border-radius: 20px;
+}
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 20px 35px;
+    background-color: goldenrod;
+    border-radius: 20px;
+}
+footer .subscribe a.greenyellow{
+    color: white;
+    font-size: 15px;
+}
+footer .subscribe a.greenyellow:hover{
+    background: white;
+    color: black;
+}
+footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+footer .copyright .links{
+    margin-top: 0px;
+    color: aliceblue;
+    
+}
+footer .copyright .links i{
+    padding: 10px 13px;
+    background-color: gray;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+footer .copyright .links i:hover{
+    background-color: goldenrod;
+    color: wheat;
+    cursor: pointer;
+}

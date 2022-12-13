@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning</title>
+      <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-------stylesheet-->
+<link rel="stylesheet" href="style.css">
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+    $('#icon').click(function(){
+        $('ul').toggleClass('show');
+    });
+});
+</script>
+<script src="script.js"></script>
+</head>
+<body>
+    <!---------------Navigation------------------>
+    <nav>
+        <label class="logo"><img src="images/Edu-Gate-1.png" alt="" height="90px" width="100px"></label>
+        <ul class="show">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+
+     <!--------------------------Home Section------------------->
+    <section id="home">
+        <h2>Your Future <span id="heading">Edu-Gate</span></h2>
+        <p>Online Learning Is the Future of Education.<br>
+            Online learning is not the next big thing,<br>
+             it is the 'NOW' big thing!! .</p>
+           <div class="btn">
+            <a class="greenyellow" href="#">Learn More</a>
+            <a class="yellow" href="course.html">Visit Course</a>
+           </div>
+    </section>
+    
+    <!-----------------------Features section-------------->
+
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <p>The Best eLearning Features You Need To know</p>
+        <div class="feature-base">
+            <div class="feature-box">
+                <i class="fa-solid fa-person-chalkboard"></i>
+                <h3>Best Teach</h3>
+                <p> The act of imparting instructions to the learners in the classroom situation.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <h3>Class Times</h3>
+                <p> Classes are held for two hours per day.It depends on the subject you choose.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fa-solid fa-award"></i>
+                <h3>Awards</h3>
+                <p>Excellent award certificates will be given according to your efficient actions.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Graduation</h3>
+                <p>A course completion certificate will be issued once you complete your course</p>
+            </div>
+            <div class="feature-box">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <h3>Save Money</h3>
+                <p>You can save your money because of the low cost of classes and no travel</p>
+            </div>
+            <div class="feature-box">
+                <i class="fa-solid fa-people-robbery"></i>
+                <h3>Placements</h3>
+                <p>If you are completed course,You will get Placement until you get a job </p>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------------Courses Section----------------------------->
+
+    <section id="course">
+        <h1>Our Popular Courses</h1>
+        <p>There are many Popular courses Teaching by well Trainers</p>
+        <div class="course-box">
+            <div class="courses">
+                <img src="images/js2.jpg" alt="">
+                <div class="details">
+                    <p class="update">28/7/2022</p>
+                    <h6>JavaScript Course</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p class="number">(259)</p>
+                    </div>
+                </div>
+                <div class="cost">
+                    $39.99
+                </div>
+            </div>
+
+            <div class="courses">
+                <img src="images/html1.jpg" alt="">
+                <div class="details">
+                    <p class="update">28/7/2022</p>
+                    <h6>HTML & CSS </h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p class="number">(259)</p>
+                    </div>
+                </div>
+                <div class="cost">
+                    $39.99
+                </div>
+            </div>
+
+            <div class="courses">
+                <img src="images/python1.jpg" alt="">
+                <div class="details">
+                    <p class="update">28/7/2022</p>
+                    <h6>Python</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p class="number">(259)</p>
+                    </div>
+                </div>
+                <div class="cost">
+                    $39.99
+                </div>
+            </div>
+
+            <div class="courses">
+                <img src="images/ai1.webp" alt="">
+                <div class="details">
+                    <p class="update">28/7/2022</p>
+                    <h6>Artificial Intelligence</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p class="number">(259)</p>
+                    </div>
+                </div>
+                <div class="cost">
+                    $39.99
+                </div>
+            </div>
+
+            <div class="courses">
+                <img src="images/softwaredevelop1.webp" alt="">
+                <div class="details">
+                    <p class="update">28/7/2022</p>
+                    <h6>JavaScript Course</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p class="number">(259)</p>
+                    </div>
+                </div>
+                <div class="cost">
+                    $39.99
+                </div>
+            </div>
+
+            <div class="courses">
+                <img src="images/js1.avif" alt="">
+                <div class="details">
+                    <p class="update">28/7/2022</p>
+                    <h6>JavaScript Course</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p class="number">(259)</p>
+                    </div>
+                </div>
+                <div class="cost">
+                    $39.99
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    
+
+    <!--------------------------------Registration Page Section---------------------->
+
+    <section id="registration">
+        <div class="reminder">
+            <p>Get 100 Online Courses for free</p>
+            <h2>Register To Get It</h2>
+            <div class="time">
+                <div class="date" id="days">
+                     <p>Days</p> 
+                </div>
+                <div class="date" id="hours">
+                     <p>Hours</p> 
+                </div>
+                <div class="date" id="minutes">
+                    <p>Minutes</p> 
+                </div>
+                <div class="date" id="seconds">
+                    <p>Seconds</p> 
+                </div>
+            </div>
+        </div>
+       <form action="" name="myForm">
+        
+
+        </div>
+    </form>
+    </section>
+
+    <!--------------------------experts section------------------->
+
+    <section id="experts">
+        <h1>Expert Trainers</h1>
+        <p>Our Trainers are very Quality and Experienced Experts</p>
+        <div class="expert-box">
+            <div class="profile">
+                <img src="images/pro1.webp" alt="">
+                <h4>Jenilia</h4>
+                <p>Python & Algorithm Expert</p>
+                <div class="links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/pro2.webp" alt="">
+                <h4>Wiilliam</h4>
+                <p>FullStock Developer</p>
+                <div class="links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/pro3.webp" alt="">
+                <h4>Robert Jamison</h4>
+                <p>AI Expert</p>
+                <div class="links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/pro4.webp" alt="">
+                <h4>Elisabeth</h4>
+                <p>Data Science Expert</p>
+                <div class="links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------Footer section------------------------------->
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Service</li>
+            
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms od Service</li>
+            
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Best Teach</li>
+            <li>Awards</li>
+            <li>Save Money</li>
+            <li>Placements</li>
+            
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Services</li>
+            
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+          <p>You can trust us, we only send promo offers,</p>
+           <div class="subscribe">
+            <input type="text" placeholder="Your Email address">
+            <a href="#" class="greenyellow">SUBSCRIBE</a>
+           </div> 
+        </div>
+        <div class="copyright">
+            <p>copyright 2022 All reserved | This template is made by Tech2etc</p>
+            <div class="links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function validate()
+{
+    if(document.myForm.Name.value=="")
+    {
+        alert("Please Provide your Name");
+        document.myForm.Name.focus();
+        return false;
+    }
+    if(document.myForm.EMail.value=="")
+    {
+        alert("Please provide your Email Id");
+        document.myForm.EMail.focus();
+        return false;
+    }
+    
+}
+    </script>
+</body>
+</html>
